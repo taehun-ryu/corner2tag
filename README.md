@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://youtu.be/Nc1FxERhoXU">
-    <img src="imgs/corner2tag_teaser.png" alt="Video" width="480">
+    <img src="imgs/teaser.png" alt="Video" width="480">
   </a>
 </p>
 
