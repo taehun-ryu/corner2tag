@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://youtu.be/Nc1FxERhoXU">
-    <img src="imgs/teaser.png" alt="Watch the video" width="640">
+    <img src="imgs/teaser.png" alt="Watch the video" width="480">
   </a>
   <br>
   <sub><b>Project video.</b> Watch on YouTube.</sub>
