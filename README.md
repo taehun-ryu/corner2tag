@@ -13,12 +13,19 @@
   <a href="TBD"><img src="https://img.shields.io/badge/Paper-Coming%20Soon-2563EB" alt="Paper"></a>
   <a href="https://vision3d-lab.github.io/corner2tag/"><img src="https://img.shields.io/badge/Project-Page-0EA5E9" alt="Project Page"></a>
   <a href="TBD"><img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"></a>
+  <!-- <a href="https://youtu.be/Nc1FxERhoXU"><img src="https://img.shields.io/badge/Video-YouTube-FF0000?logo=youtube&logoColor=white" alt="Video"></a> -->
   <a href="https://taehun-ryu.github.io/corner2tag/"><img src="https://img.shields.io/badge/Docs-corner2tag-475569?logo=readthedocs&logoColor=white" alt="Documentation"></a>
 </p>
 
 > This repository is the official implementation of the paper "From Corners to Fiducial Tags: Revisiting Checkerboard Calibration for Event Cameras".
 
 > Code release is planned after June 2026 (exact date TBD).
+
+<p align="center">
+  <a href="https://youtu.be/Nc1FxERhoXU">
+    <img src="imgs/corner2tag_teaser.png" alt="Video" width="480">
+  </a>
+</p>
 
 ## News
 <!-- :tada: celerbrate -->
