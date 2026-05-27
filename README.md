@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="TBD"><img src="https://img.shields.io/badge/Paper-Coming%20Soon-2563EB" alt="Paper"></a>
-  <a href="https://vision3d-lab.github.io/corner2tag/"><img src="https://img.shields.io/badge/Project-Page-0EA5E9" alt="Project Page"></a>
-  <a href="TBD"><img src="https://img.shields.io/badge/arXiv-Coming%20Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"></a>
-  <a href="https://taehun-ryu.github.io/corner2tag/"><img src="https://img.shields.io/badge/Docs-corner2tag-475569?logo=readthedocs&logoColor=white" alt="Documentation"></a>
+  <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Ryu_From_Corners_to_Fiducial_Tags_Revisiting_Checkerboard_Calibration_for_Event_CVPR_2026_paper.pdf"><img src="https://img.shields.io/badge/Paper-CVF-2563EB?logo=googledocs&logoColor=white" alt="Paper"></a>
+  <a href="https://openaccess.thecvf.com/content/CVPR2026/supplemental/Ryu_From_Corners_to_CVPR_2026_supplemental.pdf"><img src="https://img.shields.io/badge/Supplement-CVF-16A34A?logo=googledrive&logoColor=white" alt="Supplement"></a>
+  <a href="https://vision3d-lab.github.io/corner2tag/"><img src="https://img.shields.io/badge/Project-Page-06B6D4?logo=googlechrome&logoColor=white" alt="Project Page"></a>
+  <a href="https://taehun-ryu.github.io/corner2tag/"><img src="https://img.shields.io/badge/Docs-corner2tag-64748B?logo=readthedocs&logoColor=white" alt="Documentation"></a>
 </p>
 
 > This repository is the official implementation of the paper "From Corners to Fiducial Tags: Revisiting Checkerboard Calibration for Event Cameras".
