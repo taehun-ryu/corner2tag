@@ -1,5 +1,5 @@
 # corner2tag Documentation
 
-This documentation is under preparation.
+The checkerboard calibration release is now available. Start with [Prerequisites](prerequisite.md), then follow the [Checkerboard Calibration](checkerboard.md) guide.
 
-All other sections will be published in future updates, aligned with the public code release.
+Additional components will be documented with their public releases.

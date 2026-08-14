@@ -18,8 +18,6 @@
 
 > This repository is the official implementation of the paper "From Corners to Fiducial Tags: Revisiting Checkerboard Calibration for Event Cameras".
 
-> Code release is planned after June 2026 (exact date TBD).
-
 <p align="center">
   <a href="https://youtu.be/Nc1FxERhoXU">
     <img src="imgs/teaser.png" alt="Watch the video" width="480">
@@ -33,12 +31,30 @@
 <!-- :rocket: major release -->
 <!-- :sparkles: new feature / implementation -->
 <!-- :bug: bug fix -->
-- 26.04.09. :tada: Our CVPR paper was selected as **Highlight**!
+- 26.08.14. :rocket: Checkerboard calibration is now available!
+- 26.04.09. :tada: Our CVPR paper was selected as **Highlight**! (14.1% of accepted papers, 3.6% of total submissions.)
 - 26.02.23. :tada: **corner2tag** was accepted to **CVPR 2026**! (acceptance rate: 25.42%)
 
 ## How to use
 
 For detailed setup and usage instructions, please refer to [the full documentation](https://taehun-ryu.github.io/corner2tag/).
+
+From the repository root:
+
+### Build
+
+```bash
+cmake -S . -B build -DCORNER2TAG_STANDALONE=ON
+cmake --build build --parallel
+```
+
+### Checkerboard Calibration
+
+Configure `config/checkerboard.yaml`, then run:
+
+```bash
+./build/checkerboard config/checkerboard.yaml
+```
 
 ## Acknowledgments
 

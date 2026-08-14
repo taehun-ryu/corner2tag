@@ -41,6 +41,7 @@ results/
 cpp/
 bin/
 build/
+tests/
 msg_gen/
 srv_gen/
 lib/

@@ -14,8 +14,8 @@ nav:
   - Getting Started:
       - Prerequisites: prerequisite.md
   #     - Quick Start: quick-start.md
-  # - Calibration:
-  #     - Checkerboard: checkerboard.md
+  - Calibration:
+      - Checkerboard: checkerboard.md
   #     - AprilTag: apriltag.md
   # - Optional Tools:
   #     - Data Conversion: data-conversion.md
