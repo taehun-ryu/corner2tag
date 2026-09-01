@@ -66,7 +66,7 @@ Configure `config/checkerboard.yaml`, then run:
 ./build/checkerboard config/checkerboard.yaml
 ```
 
-### Docker
+### Docker (optional)
 
 If you need an isolated environment, run checkerboard calibration with Docker.
 

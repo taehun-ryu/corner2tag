@@ -83,14 +83,8 @@ See [Checkerboard Outputs](checkerboard.md#outputs) for the generated files and 
 
 ## GUI
 
-GUI output is disabled by default in Docker. Enable it with the environment variable below only when the host display environment is configured for container access:
-
-```bash
-CORNER2TAG_ENABLE_GUI=1 \
-bash docker/run_checkerboard_docker.sh /absolute/path/to/data recording.h5
-```
-
-The launcher does not configure X11 or Wayland forwarding automatically. Saved output images are available regardless of GUI mode.
+!!! note "Visualization in Docker"
+    The provided Docker launcher does not support real-time GUI visualization. Visualization images are still saved under `results/checkerboard/run_YYYYMMDD_HHMMSS/` and can be inspected after the run.
 
 ## Custom Image Tag
 

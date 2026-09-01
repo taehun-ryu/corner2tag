@@ -23,7 +23,7 @@ expected_corners: -1   # auto = board_w * board_h if < 0
 
 # Fixed temporal windowing in microseconds. Timestamps are automatically
 # relative to the first event, so only the window length is configured.
-fixed_window_us: 0
+fixed_window_us: 100000
 
 # CM (contrast maximization)
 # objective on IWE: true=variance, false=L2(RMS)
