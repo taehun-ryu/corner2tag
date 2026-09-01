@@ -17,7 +17,7 @@ cmake --build build --parallel
 
 ## Prepare the Input
 
-The input must be an HDF5 event file with the layout described in [Prerequisites](prerequisite.md#input-preconditions). Events must be ordered by timestamp.
+The input must be an HDF5 event file with the layout described in [Prerequisites](prerequisite.md#input-preconditions). Events must be ordered by timestamp. Use the provided [data converters](data-conversion.md) for supported ROS1 bag and iniVation AEDAT4 recordings.
 
 Use `config/checkerboard.yaml` as the starting point. Update at least the following fields for your data:
 
