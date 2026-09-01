@@ -31,8 +31,8 @@
 <!-- :rocket: major release -->
 <!-- :sparkles: new feature / implementation -->
 <!-- :bug: bug fix -->
-- 26.09.01. :sparkles: Data converters and a Docker environment are now available.
-- 26.08.14. :rocket: Checkerboard calibration is now available!
+- 26.09.01. :sparkles: Data converters and Docker environment were released.
+- 26.08.14. :rocket: Checkerboard calibration was released.
 - 26.04.09. :tada: Our CVPR paper was selected as **Highlight**! (14.1% of accepted papers, 3.6% of total submissions.)
 - 26.02.23. :tada: **corner2tag** was accepted to **CVPR 2026**! (acceptance rate: 25.42%)
 
