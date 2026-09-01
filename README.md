@@ -31,6 +31,7 @@
 <!-- :rocket: major release -->
 <!-- :sparkles: new feature / implementation -->
 <!-- :bug: bug fix -->
+- 26.09.01. :sparkles: Data converters and a Docker environment are now available.
 - 26.08.14. :rocket: Checkerboard calibration is now available!
 - 26.04.09. :tada: Our CVPR paper was selected as **Highlight**! (14.1% of accepted papers, 3.6% of total submissions.)
 - 26.02.23. :tada: **corner2tag** was accepted to **CVPR 2026**! (acceptance rate: 25.42%)
@@ -48,12 +49,29 @@ cmake -S . -B build -DCORNER2TAG_STANDALONE=ON
 cmake --build build --parallel
 ```
 
+### Data Conversion
+
+Convert supported ROS1 bag or AEDAT4 recordings to the HDF5 format used by corner2tag.
+
+```bash
+python3 data_converter/dvs_msgs_to_h5.py /path/to/recording.bag
+python3 data_converter/inivation_aedat4_to_h5.py /path/to/recording.aedat4
+```
+
 ### Checkerboard Calibration
 
 Configure `config/checkerboard.yaml`, then run:
 
 ```bash
 ./build/checkerboard config/checkerboard.yaml
+```
+
+### Docker
+
+If you need an isolated environment, run checkerboard calibration with Docker.
+
+```bash
+bash docker/run_checkerboard_docker.sh /absolute/path/to/data recording.h5
 ```
 
 ## Acknowledgments

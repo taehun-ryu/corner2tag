@@ -1,0 +1,10 @@
+.git
+.gitignore
+build
+install
+results
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store

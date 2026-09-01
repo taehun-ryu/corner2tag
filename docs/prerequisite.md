@@ -43,3 +43,5 @@ Input HDF5 must include the following dataset layout:
 
 - `ts`, `xs`, `ys`, and `ps` must be one-dimensional arrays of equal length.
 - `ts` must be integer microseconds (`uint64`).
+
+ROS1 bag and iniVation AEDAT4 recordings can be converted to this layout using the provided [Data Conversion](data-conversion.md) tools.
