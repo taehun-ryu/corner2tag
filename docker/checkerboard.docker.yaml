@@ -1,0 +1,60 @@
+# Docker checkerboard calibration configuration
+
+# input/output
+# NOTE: for Docker usage, keep these fixed for container I/O mapping.
+# - Do not edit h5_path. Input selection should be done via
+#   run_checkerboard_docker.sh h5_file_name argument.
+# - h5_path points to the bind-mounted input file under /data.
+# - out_dir is relative to /workspace so Docker output matches local output.
+h5_path: "/data/input.h5"
+out_dir: "results/checkerboard/"
+
+# sensor size
+width: 346
+height: 260
+
+# checkerboard geometry
+# `board_w` / `board_h` are INNER corner counts (not square counts).
+# Example: a 6x8 checkerboard (squares) should be set as board_h=5, board_w=7.
+board_h: 5
+board_w: 7
+square_size: 0.4
+expected_corners: -1   # auto = board_w * board_h if < 0
+
+# Fixed temporal windowing in microseconds. Timestamps are automatically
+# relative to the first event, so only the window length is configured.
+fixed_window_us: 0
+
+# CM (contrast maximization)
+# objective on IWE: true=variance, false=L2(RMS)
+use_variance: true
+
+# CM IWE kernel
+cm_iwe.sigma: 1.0              # Gaussian sigma
+cm_iwe.cutoff_factor: 3.0      # radius = sigma * cutoff_factor
+cm_iwe.patch_radius_override: -1  # >=0 overrides kernel radius
+
+# CM tracker
+tracker.num_threads: 4
+tracker.max_iterations: 200
+
+# patch extraction
+pp_radius: 3
+
+# refinement (corner)
+corner_refine.max_iter: 200
+corner_refine.lr: 0.25
+corner_refine.strip_half_width0: 0.25
+corner_refine.strip_half_width1: 0.25
+
+# refinement (checkerboard validity)
+checkerboard_validity.tor_spacing: 0.25
+checkerboard_validity.tor_orth: 0.2
+
+# visualization (calibration uses original image size)
+viz_zoom: 1.0   # float ok
+
+# calibration
+calib_max_iter: 200
+calib_fix_k3plus: true
+calib_use_intrinsic_guess: true
