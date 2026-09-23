@@ -1,15 +1,13 @@
+<h1 align="center">Corner2Tag</h1>
 <p align="center">
-  <h1 align="center">Corner2Tag</h1>
-  <p align="center">
-    <strong>Checkerboard-Based Event Camera Calibration</strong>
-  </p>
-  <p align="center">
-    <a href="https://taehun-ryu.github.io/" rel="external nofollow noopener" target="_blank"><strong>Taehun Ryu</strong></a>
-    ·
-    <a href="https://kang-changwoo.github.io/" rel="external nofollow noopener" target="_blank"><strong>Changwoo Kang</strong></a>
-    ·
-    <a href="https://vision3d-lab.github.io/" rel="external nofollow noopener" target="_blank"><strong>Kyungdon Joo</strong></a>
-  </p>
+  <strong>Checkerboard-Based Event Camera Calibration</strong>
+</p>
+<p align="center">
+  <a href="https://taehun-ryu.github.io/" rel="external nofollow noopener" target="_blank"><strong>Taehun Ryu</strong></a>
+  ·
+  <a href="https://kang-changwoo.github.io/" rel="external nofollow noopener" target="_blank"><strong>Changwoo Kang</strong></a>
+  ·
+  <a href="https://vision3d-lab.github.io/" rel="external nofollow noopener" target="_blank"><strong>Kyungdon Joo</strong></a>
 </p>
 
 <p align="center">
