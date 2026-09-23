@@ -13,8 +13,6 @@ The following environment has been tested:
 
 Newer Ubuntu and OpenCV versions may work, but are not verified.
 
-**Note:** If you have trouble with environment setup, you can optionally use [Docker](docker.md).
-
 ## Required Dependencies
 
 Install core packages:
