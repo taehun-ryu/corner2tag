@@ -17,8 +17,6 @@
 </p>
 
 <p align="center">
-  <!-- <strong>IEEE T-PAMI Extended Version</strong>
-  &nbsp;&nbsp;·&nbsp;&nbsp; -->
   <strong>CVPR 2026 Highlight</strong>
 </p>
 
@@ -37,8 +35,7 @@
 
 ### Journal Extension
 
-An extended journal version of **Corner2Tag** is currently in preparation.  
-We apologize for the temporary unavailability of the code after its initial release.  
+Extended journal version of **Corner2Tag** is currently in preparation.  
 The code has been taken offline while we prepare a unified implementation for the journal extension.  
 Updates will be posted here when available.
 
